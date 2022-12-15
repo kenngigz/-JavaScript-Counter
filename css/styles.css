@@ -1,0 +1,43 @@
+:root {
+  --orange: #ffa600;
+  --grey: #f3f3f3;
+  --white: #fff;
+  --base-color: $orange;
+}
+.fontFam {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+}
+body {
+  background-color: var(--orange);
+  color: antiquewhite;
+}
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 4.6rem;
+  text-transform: uppercase;
+}
+.counter {
+  font-weight: 300;
+  font-size: 4.6rem;
+}
+.maindiv {
+  text-align: center;
+  margin: 20rem 0 0 0;
+}
+.btn {
+  margin: 0 1%;
+  background-color: #ffa600;
+  width: 20%;
+  color: antiquewhite;
+  border: 2px solid rgb(88, 87, 87);
+  /* background-color: white; */
+  /* color: black; */
+  padding: 14px 28px;
+  /* font-size: 16px; */
+  cursor: pointer;
+}
